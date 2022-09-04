@@ -1,0 +1,6 @@
+alpha: 0.05
+N: [250, 500, 750, 1000]
+d: 25
+T: 500
+noise_coeff: 1
+Linearity: [False]

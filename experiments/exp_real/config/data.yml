@@ -1,0 +1,4 @@
+alpha: 0.05
+N: 100
+datasets: ['D4A', 'D4B']
+n: 30

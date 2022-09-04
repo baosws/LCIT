@@ -1,0 +1,7 @@
+n_bootstraps: 0
+n_components: 32
+hidden_sizes: [4]
+lr: 5.e-3
+weight_decay: 5.e-5
+max_epochs: 100
+verbose: False

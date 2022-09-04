@@ -1,0 +1,4 @@
+n_bootstraps: 100
+normalize: True
+random_state: 0
+verbose: False
