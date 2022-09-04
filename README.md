@@ -8,14 +8,14 @@ This is the implementation of our paper: Bao Duong and Thin Nguyen. Conditional 
 - (Optional) For KCIT: causal-learn 0.1.2.3 (https://github.com/cmu-phil/causal-learn).
 - (Optional) For CCIT: CCIT 0.4 (https://github.com/rajatsen91/CCIT).
 
-## Demo:
+## Demo
 
 ```python
 import numpy as np, seaborn as sns, matplotlib.pyplot as plt
 from src.citests import LCIT
 np.random.seed(0)
 
-# X <- Z -> Y
+# Case 1 (Conditional Independent): X <- Z -> Y
 N, d = 200, 3
 Z = np.random.uniform(-2, 2, size=(N, d))
 X = Z @ np.random.randn(d) + np.random.uniform(-0.2, 0.2, size=N)
@@ -30,7 +30,7 @@ if p_value > 0.05:
 else:
     print('[Incorrect] Reject H0 (X _||_ Y | Z)')
 
-# X -> Z -> Y <- X
+# Case 2 (Conditional Dependent): X -> Z -> Y <- X
 N, d = 1000, 10
 X = np.random.uniform(-0.2, 0.2, size=N)
 Z = np.outer(X, np.random.randn(d) * 5) + np.random.uniform(-0.2, 0.2, size=(N, d))
