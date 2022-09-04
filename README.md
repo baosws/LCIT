@@ -10,7 +10,7 @@ This is the implementation of our paper: Bao Duong and Thin Nguyen. Conditional 
 
 ## Demo:
 
-```
+```python
 import numpy as np, seaborn as sns, matplotlib.pyplot as plt
 from src.citests import LCIT
 np.random.seed(0)
