@@ -1,4 +1,4 @@
-# Latent representation based Conditional Independence Test
+# Latent representation based Conditional Independence Test (LCIT)
 This is the implementation of our paper: Bao Duong and Thin Nguyen. Conditional Independence Testing via Latent Representation Learning. In IEEE International Conference on Data Mining (ICDM), 2022.
 
 ## Dependencies
