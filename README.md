@@ -1,5 +1,5 @@
 # Latent representation based Conditional Independence Test (LCIT)
-This is the implementation of our paper: Bao Duong and Thin Nguyen. Conditional Independence Testing via Latent Representation Learning. In IEEE International Conference on Data Mining (ICDM), 2022.
+This is the implementation of our paper: Bao Duong and Thin Nguyen. [Conditional Independence Testing via Latent Representation Learning](https://arxiv.org/abs/2209.01547). In IEEE International Conference on Data Mining (ICDM), 2022.
 
 ![Framework](framework.png)
 
@@ -57,3 +57,13 @@ where available `methods` are CCIT, KCIT, SCIT, and LCIT; `n_jobs` is the number
 Modifiable configurations are stored in `experiments/exp_*/config/`, and result dataframes are stored in `experiments/exp_*/results/` after the command is finished.
 
 ## Citation
+
+If you find our code helpful, please cite us as:
+```
+@article{duong2022conditional,
+  title={Conditional Independence Testing via Latent Representation Learning},
+  author={Duong, Bao and Nguyen, Thin},
+  journal={arXiv preprint arXiv:2209.01547},
+  year={2022}
+}
+```
