@@ -60,10 +60,11 @@ Modifiable configurations are stored in `experiments/exp_*/config/`, and result 
 
 If you find our code helpful, please cite us as:
 ```
-@article{duong2022conditional,
-  title={Conditional Independence Testing via Latent Representation Learning},
-  author={Duong, Bao and Nguyen, Thin},
-  journal={arXiv preprint arXiv:2209.01547},
-  year={2022}
+@inproceedings{duong2022conditional,
+	author = {Bao Duong and Thin Nguyen},
+	booktitle = {2022 IEEE International Conference on Data Mining (ICDM)},
+	pages = {121-130},
+	title = {Conditional Independence Testing via Latent Representation Learning},
+	year = {2022}
 }
 ```
