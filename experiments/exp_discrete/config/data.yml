@@ -1,11 +1,13 @@
 alpha: 0.05
 N: [1000]
-d: [10] #[5, 10, 15, 20]
+d: [5, 10, 15, 20]
 X_cat:
   - True
-  # - False
-Y_cat: [False]
+  - False
+Y_cat:
+  - True
+  - False
 Z_cats: [0, 1]
-T: 5
+T: 50
 noise_coeff: 1
 Linearity: [False]
