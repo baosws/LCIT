@@ -1,5 +1,7 @@
 # Latent representation based Conditional Independence Test (LCIT)
-This is the implementation of our paper: Bao Duong and Thin Nguyen. [Conditional Independence Testing via Latent Representation Learning](https://arxiv.org/abs/2209.01547). In IEEE International Conference on Data Mining (ICDM), 2022.
+This is the implementation of our papers:
+- Bao Duong and Thin Nguyen. [Conditional Independence Testing via Latent Representation Learning](https://arxiv.org/abs/2209.01547). In IEEE International Conference on Data Mining (ICDM), 2022.
+- Bao Duong and Thin Nguyen. [Normalizing flows for conditional independence testing](https://doi.org/10.1007/s10115-023-01964-w). Knowledge and Infomation System 66, 357–380 (2024). 
 
 ![Framework](framework.png)
 
@@ -9,6 +11,8 @@ This is the implementation of our paper: Bao Duong and Thin Nguyen. [Conditional
 - For LCIT: PyTorch 1.12, PyTorch-Lightning 1.5.3.
 - (Optional) For KCIT: causal-learn 0.1.2.3 (https://github.com/cmu-phil/causal-learn).
 - (Optional) For CCIT: CCIT 0.4 (https://github.com/rajatsen91/CCIT).
+
+Alternatively, the `pixi.lock` and `pixi.toml` files can be used to reproduce our workable environment via `pixi install` (see [pixi](https://pixi.sh/latest/#getting-started) for more details).
 
 ## Demo
 
@@ -45,6 +49,8 @@ if p_value > 0.1:
 else:
     print('[Correct] Reject H0 (X _||_ Y | Z)')
 ```
+
+See [demo.py](demo.py) for more details.
 
 ## Running experiments
 
