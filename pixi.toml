@@ -1,0 +1,22 @@
+[project]
+authors = ["Bao Duong"]
+channels = ["https://prefix.dev/conda-forge"]
+description = "LCIT"
+name = "LCIT"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[dependencies]
+python = "3.9.*"
+numpy = ">=2.0.2,<3"
+pandas = ">=2.3.0,<3"
+scikit-learn = ">=1.6.1,<2"
+seaborn = ">=0.13.2,<0.14"
+scipy = ">=1.13.1,<2"
+tqdm = ">=4.67.1,<5"
+yaml = ">=0.2.5,<0.3"
+pytorch-cpu = ">=2.7.0,<3"
+lightning = ">=2.5.1.post0,<3"
+
+[pypi-dependencies]
+causal-learn = ">=0.1.4.1, <0.2"
